@@ -1,0 +1,27 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "koa server",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "Anchalee Laiprasert",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "pg": "^7.4.1",
+    "sequelize": "^4.31.2"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "nodemon": "^1.14.11",
+    "run-sequence": "^2.2.1",
+    "webpack": "^3.10.0"
+  }
+}
